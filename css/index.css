@@ -1,0 +1,52 @@
+#GridWrapper {
+    display: grid;  
+    grid-gap: 0px;  
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+#Header {
+    grid-column: 1 / span 4;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: chartreuse;
+}
+
+#Nav{
+    grid-column: 2/span 4;
+}
+
+#Titulo {
+    grid-column: 1/ span 1;
+    grid-row: 1/2;
+    background-color: aqua;
+    font-size: 30px;
+}
+
+#PaginaPrincipal {
+    background-color: #f20d12;
+    grid-column: 2/3;
+}
+
+#Modelos {
+    background-color: #832e30;
+}
+
+#QuienesSomos {
+    background-color: #177523; 
+}
+
+#Contacto {
+    background-color: #800040;
+}
+
+
+li {
+    list-style: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
