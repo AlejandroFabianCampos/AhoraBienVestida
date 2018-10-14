@@ -10,11 +10,11 @@
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    background-color: chartreuse;
-}
-
-#Nav{
-    grid-column: 2/span 4;
+    background-color: black;
+    color: white;    
+    text-align: center;
+    justify-items: center;
+    
 }
 
 #Titulo {
@@ -22,31 +22,30 @@
     grid-row: 1/2;
     background-color: aqua;
     font-size: 30px;
+    width: 100%;
 }
 
 #PaginaPrincipal {
-    background-color: #f20d12;
-    grid-column: 2/3;
+    align-items: center;
 }
 
 #Modelos {
-    background-color: #832e30;
 }
 
 #QuienesSomos {
-    background-color: #177523; 
 }
 
 #Contacto {
-    background-color: #800040;
 }
 
-
-li {
-    list-style: none;
+body {
+    font-size: 30px;
+    margin: 0px;
 }
 
-li a:hover {
+a:hover {
+    border-radius: 10px;
     background-color: #555;
-    color: white;
+    color: rgb(24, 8, 165);
+    font-size: 40px;
 }
