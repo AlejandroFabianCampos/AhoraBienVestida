@@ -1,51 +1,17 @@
-#GridWrapper {
-    display: grid;  
-    grid-gap: 0px;  
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+.pageHeight {
+    height: calc(100vh - 56px);
+    padding-top: calc(calc(calc(100vh - 56px) - calc(100vw * 0.562)) / 2);
 }
 
-#Header {
-    grid-column: 1 / span 4;
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    background-color: black;
-    color: white;    
-    text-align: center;
-    justify-items: center;
-    
+#carouselPrincipal {
 }
 
-#Titulo {
-    grid-column: 1/ span 1;
-    grid-row: 1/2;
-    background-color: aqua;
-    font-size: 30px;
-    width: 100%;
-}
 
-#PaginaPrincipal {
-    align-items: center;
-}
 
-#Modelos {
-}
 
-#QuienesSomos {
-}
 
-#Contacto {
-}
+/* 
+    calc(calc(calc(100vh - 56px) - calc(100vw * 0.562) / 2)
+    ((altura de la pagina - barra) - altura del carrusel) / 2 
 
-body {
-    font-size: 30px;
-    margin: 0px;
-}
-
-a:hover {
-    border-radius: 10px;
-    background-color: #555;
-    color: rgb(24, 8, 165);
-    font-size: 40px;
-}
+*/
